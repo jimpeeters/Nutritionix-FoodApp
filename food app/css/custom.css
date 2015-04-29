@@ -1,0 +1,215 @@
+
+.rectangle {
+    border : 1px solid #808080;
+    width : 100px;
+    height : 33px;
+    float : left;
+}
+
+.icon {
+    float : left;
+    margin-top : -1px;
+}
+
+.section1 {
+
+}
+
+.section2 {
+    margin-bottom: 20px;
+}
+
+.section3 {
+    margin-bottom: 50px;
+}
+
+.section4 {
+    margin-bottom: 20px;
+}
+
+.containerF {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    height : 530px;
+    width : 450px;
+    border : 1px solid;
+    border-radius: 8px;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+}
+body {
+    background-image: url(../images/Food.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, "CenturyGothic", sans-serif;
+
+}
+
+.foodBar {
+    height : 35px;
+}
+
+.vitaminImg {
+    width : 90px;
+    height : 80px;
+}
+
+#foodInput {
+    margin-top: 20px;
+    padding : 4px;
+    display: inline-block;
+}
+
+#sugarRectangle,#calorieRectangle,#proteinRectangle,#fatRectangle,#sodiumRectangle {
+    height : 100%;
+    float : left;
+    max-width: 100px;
+    
+}
+
+.sportInfo {
+    background-color: red;
+    display: inline-block;
+}
+
+#sugarRectangle {
+    background-color: #00cadc;
+    
+}
+
+#calorieRectangle {
+    background-color: #dc0066;
+}
+
+#proteinRectangle {
+    background-color: #f4a100;
+}
+
+#fatRectangle {
+    background-color: #eefc02;
+}
+
+#sodiumRectangle {
+    background-color: #3498db;
+}
+
+.searchButton {
+     display: inline-block;
+    background: #ffc835;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    padding: 6px 30px;
+    border-width: 1px;
+    border-style: solid;
+
+    font-size: 14px;
+    color: #4f2f2f;
+   
+}
+
+.searchButton:hover {
+     background: #ffd200;
+}
+
+.exerciseBtn {
+    display: inline-block;
+    background: #ffc835;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    padding: 6px 30px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    color: #4f2f2f;
+    margin-bottom : 10px;
+}
+
+.exerciseBtn:hover {
+    background: #ffd200;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.calciumImg {
+    width : 70px;
+    height : 70px;
+}
+
+.ironImg {
+    width : 75px;
+    height : 75px;
+}
+
+
+#errorMsg {
+    color : red;
+}
+
+.runner {
+    width : 15px;
+    height : 20px;
+    display : inline-block;
+    margin-left : -7px;
+    margin-top : -9px;
+}
+
+#runningLine {
+    max-width: 150px;
+    background: #363636; 
+    height : 2px;
+    display : inline-block;
+    border : none;
+
+}
+
+#infoImg {
+    width : 40px;
+    height : 40px;
+    opacity : 0.9;
+    margin-top : -30px;
+}
+
+#infoImg:hover {
+    width : 40px;
+    height : 40px;
+    opacity: 1;
+}
+
+#weightInput {
+    width : 40px;
+    padding : 4px;
+    display: inline-block;
+}
+
+#scale {
+    width : 15px;
+    height : 15px;
+}
+
+.runningAnimation {
+    margin-top : 10px;
+}
+
+#copyrightTxt{
+    color: white;
+}
